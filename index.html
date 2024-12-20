@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/media.css" />
+    <title>My Work</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-center gap-3 gap-lg-0">
+              <li class="d-flex align-items-center">
+                <a class="nav_link active" aria-current="page" href="#"
+                  >About me</a
+                >
+              </li>
+              <li class="d-flex align-items-center">
+                <a class="nav_link" href="#">Works</a>
+              </li>
+              <li>
+                <a class="nav_btn" href="#">to order</a>
+              </li>
+              <li>
+                <a class="nav_phone fal tel" href=""></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="intro">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="container">
+              <div class="row row-cols-lg-2">
+                <div class="slider_left">
+                  <div
+                    class="slider_left-content col-lg-10 ms-auto text-center text-lg-start"
+                  >
+                    <h2 class="slider_left-title">My beginning</h2>
+                    <h1 class="slider_left-main-title">
+                      Self-development and training in the training center
+                    </h1>
+                    <a href="" class="slider_left-btn">GET STARTED NOW</a>
+                  </div>
+
+                  <div
+                    class="slider_left-icons row row-cols-sm-3 row-cols-2 justify-content-center text-center"
+                  >
+                    <div class="slider_left-icon">
+                      <img src="images/html.png" alt="" />
+                      <p class="slider_left-text">HTML</p>
+                    </div>
+                    <div class="slider_left-icon">
+                      <img src="images/css.png" alt="" />
+                      <p class="slider_left-text">CSS</p>
+                    </div>
+                    <div class="slider_left-icon">
+                      <img src="images/bs.png" alt="" />
+                      <p class="slider_left-text">bootstrap 5</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="slider_right overflow-hidden">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/slider-1.png"
+                      class="d-block w-100 slider_img"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/slider-2.png"
+                      class="d-block w-100 slider_img"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-5 col-sm-8 m-auto m-lg-0 position-relative">
+              <p class="about_text">my work for <span>5+</span></p>
+              <img src="images/about_img.png" alt="" class="about_img w-100" />
+            </div>
+
+            <div class="col-lg-6 col-12">
+              <div class="about_content">
+                <h3 class="about_content-title"></h3>
+                <p class="about_content-text">
+                  it is the development of of the user interface and functions
+                  that run on on the client side of a website or application
+                  This is everything that a user sees when opening a or aweb
+                  page and with which he interacts.
+                </p>
+                <p class="about_content-text">
+                  This is everything that a user sees when opening a web page
+                  and with which he interacts.
+                </p>
+                <a href="" class="about_content-link">go to work</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="capabilities">
+        <div class="container">
+          <h3 class="section_title">Capabilities</h3>
+          <div class="row row-cols-lg-2 align-items-center">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion_item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion__button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <div class="accordion_content">
+                      <img src="images/acc-html.png" alt="" />
+                      HTML
+                      <i class="fas arrow"></i>
+                    </div>
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion__body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Venenatis felis dui quis eget suspendisse rutrum orci.
+                    Elementum, ultrices dictum cras sit volutpat morbi
+                    adipiscing ut. Convallis faucibus ligula blandit enim.
+                    Accumsan est
+                  </div>
+                </div>
+              </div>
+              <div class="accordion_item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion__button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    <div class="accordion_content">
+                      <img src="images/acc-css.png" alt="" />
+                      CSS
+                      <i class="fas arrow"></i>
+                    </div>
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion__body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Venenatis felis dui quis eget suspendisse rutrum orci.
+                    Elementum, ultrices dictum cras sit volutpat morbi
+                    adipiscing ut. Convallis faucibus ligula blandit enim.
+                    Accumsan est
+                  </div>
+                </div>
+              </div>
+              <div class="accordion_item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion__button collapsed pb-3"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    <div class="accordion_content">
+                      <img src="images/acc-bootstrap.png" alt="" />
+                      bootstrap 5
+                      <i class="fas arrow"></i>
+                    </div>
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion__body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Venenatis felis dui quis eget suspendisse rutrum orci.
+                    Elementum, ultrices dictum cras sit volutpat morbi
+                    adipiscing ut. Convallis faucibus ligula blandit enim.
+                    Accumsan est
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img class="acc_images" src="images/c-img.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="works">
+        <div class="container">
+          <h3 class="section_title">My Works</h3>
+          <div class="row">
+            <ul
+              class="nav nav-tabs col-lg-3 flex-lg-column border-0 works__list"
+              id="myTab"
+              role="tablist"
+            >
+              <li class="works__item" role="presentation">
+                <button
+                  class="works__btn active"
+                  id="home-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nike"
+                  type="button"
+                  role="tab"
+                  aria-controls="home-tab-pane"
+                  aria-selected="true"
+                >
+                  NIKE
+                </button>
+              </li>
+              <li class="works__item" role="presentation">
+                <button
+                  class="works__btn"
+                  id="profile-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#silver"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile-tab-pane"
+                  aria-selected="false"
+                >
+                  SILVER HOUSE
+                </button>
+              </li>
+              <li class="works__item" role="presentation">
+                <button
+                  class="works__btn"
+                  id="contact-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#orange"
+                  type="button"
+                  role="tab"
+                  aria-controls="contact-tab-pane"
+                  aria-selected="false"
+                >
+                  ORANGE-MARKETING
+                </button>
+              </li>
+              <li class="works__item" role="presentation">
+                <button
+                  class="works__btn"
+                  id="contact-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#toshkent"
+                  type="button"
+                  role="tab"
+                  aria-controls="contact-tab-pane"
+                  aria-selected="false"
+                >
+                  TOSHKENT
+                </button>
+              </li>
+              <li class="works__item" role="presentation">
+                <button
+                  class="works__btn"
+                  id="contact-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#street"
+                  type="button"
+                  role="tab"
+                  aria-controls="contact-tab-pane"
+                  aria-selected="false"
+                >
+                  STREET88
+                </button>
+              </li>
+              <li class="works__item" role="presentation">
+                <button
+                  class="works__btn"
+                  id="contact-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#pizzeria"
+                  type="button"
+                  role="tab"
+                  aria-controls="contact-tab-pane"
+                  aria-selected="false"
+                >
+                  PIZZERIA
+                </button>
+              </li>
+            </ul>
+
+            <div class="tab-content col-lg-9" id="myTabContent">
+              <div
+                class="tab-pane fade show active works__content"
+                id="nike"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-md-3">
+                    <img
+                      src="images/works__img.png"
+                      class="works__img"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-md-9">
+                    <h4 class="works__title">NIKE Layout</h4>
+                    <p class="works__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Orci, mauris neque, gravida amet diam cum nisl enim.
+                      Vestibulum, risus, maecenas et nisi lobortis malesuada
+                      vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet,
+                      lorem vitae lectus risus diam
+                    </p>
+                    <p class="works__text">
+                      nunc. Eget nunc eget lectus amet feugiat lobortis sit sit
+                      non eu. Nunc, mauris viverra quis sapien quam. Non
+                      parturient sed
+                    </p>
+                    <a href="" class="works__link">details</a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade works__content"
+                id="silver"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-md-3">
+                    <img
+                      src="images/works__img.png"
+                      class="works__img"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-md-9">
+                    <h4 class="works__title">SLIVER HOME</h4>
+                    <p class="works__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Orci, mauris neque, gravida amet diam cum nisl enim.
+                      Vestibulum, risus, maecenas et nisi lobortis malesuada
+                      vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet,
+                      lorem vitae lectus risus diam
+                    </p>
+                    <p class="works__text">
+                      nunc. Eget nunc eget lectus amet feugiat lobortis sit sit
+                      non eu. Nunc, mauris viverra quis sapien quam. Non
+                      parturient sed
+                    </p>
+                    <a href="" class="works__link">details</a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade works__content"
+                id="orange"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-md-3">
+                    <img
+                      src="images/works__img.png"
+                      class="works__img"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-md-9">
+                    <h4 class="works__title">ORANGE-STORE</h4>
+                    <p class="works__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Orci, mauris neque, gravida amet diam cum nisl enim.
+                      Vestibulum, risus, maecenas et nisi lobortis malesuada
+                      vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet,
+                      lorem vitae lectus risus diam
+                    </p>
+                    <p class="works__text">
+                      nunc. Eget nunc eget lectus amet feugiat lobortis sit sit
+                      non eu. Nunc, mauris viverra quis sapien quam. Non
+                      parturient sed
+                    </p>
+                    <a href="" class="works__link">details</a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade works__content"
+                id="toshkent"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-md-3">
+                    <img
+                      src="images/works__img.png"
+                      class="works__img"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-md-9">
+                    <h4 class="works__title">TASHKENT CITY</h4>
+                    <p class="works__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Orci, mauris neque, gravida amet diam cum nisl enim.
+                      Vestibulum, risus, maecenas et nisi lobortis malesuada
+                      vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet,
+                      lorem vitae lectus risus diam
+                    </p>
+                    <p class="works__text">
+                      nunc. Eget nunc eget lectus amet feugiat lobortis sit sit
+                      non eu. Nunc, mauris viverra quis sapien quam. Non
+                      parturient sed
+                    </p>
+                    <a href="" class="works__link">details</a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade works__content"
+                id="street"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-md-3">
+                    <img
+                      src="images/works__img.png"
+                      class="works__img"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-md-9">
+                    <h4 class="works__title">STREET77</h4>
+                    <p class="works__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Orci, mauris neque, gravida amet diam cum nisl enim.
+                      Vestibulum, risus, maecenas et nisi lobortis malesuada
+                      vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet,
+                      lorem vitae lectus risus diam
+                    </p>
+                    <p class="works__text">
+                      nunc. Eget nunc eget lectus amet feugiat lobortis sit sit
+                      non eu. Nunc, mauris viverra quis sapien quam. Non
+                      parturient sed
+                    </p>
+                    <a href="" class="works__link">details</a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade works__content"
+                id="pizzeria"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-md-3">
+                    <img
+                      src="images/works__img.png"
+                      class="works__img"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-md-9">
+                    <h4 class="works__title">PIZZERIA HUB</h4>
+                    <p class="works__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Orci, mauris neque, gravida amet diam cum nisl enim.
+                      Vestibulum, risus, maecenas et nisi lobortis malesuada
+                      vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet,
+                      lorem vitae lectus risus diam
+                    </p>
+                    <p class="works__text">
+                      nunc. Eget nunc eget lectus amet feugiat lobortis sit sit
+                      non eu. Nunc, mauris viverra quis sapien quam. Non
+                      parturient sed
+                    </p>
+                    <a href="" class="works__link">details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content col-lg-6 ms-auto text-center">
+          <a href="">
+            <img src="images/logo.png" alt="" />
+          </a>
+          <ul class="footer__list d-flex justify-content-around p-0 mt-4 flex-wrap">
+            <li><a href="" class="footer__link">about Me</a></li>
+            <li><a href="" class="footer__link">Works</a></li>
+            <li><a href="" class="footer__link">Contacts</a></li>
+          </ul>
+          <div class="d-flex justify-content-around flex-wrap gap-2 gap-xl-0">
+            <a href="tel:(239) 555-0108" class="footer__contact">(239) 555-0108</a>
+            <a href="mailto:Ronald Richards@gmail.com" class="footer__contact">Ronald Richards@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="round"></div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

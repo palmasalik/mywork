@@ -1,0 +1,74 @@
+/* подключение иконок */
+/* подключение иконок */
+/* подключение иконок */
+
+@font-face {
+  font-family: FontAwesome;
+  src: url(../icon/fa-brands-400.woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: FontAwesome;
+  src: url(../icon/fa-duotone-900.woff2);
+  font-weight: 900;
+}
+@font-face {
+  font-family: FontAwesome;
+  src: url(../icon/fa-light-300.woff2);
+  font-weight: 300;
+}
+@font-face {
+  font-family: FontAwesome;
+  src: url(../icon/fa-regular-400.woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: FontAwesome;
+  src: url(../icon/fa-solid-900.woff2);
+  font-weight: 900;
+}
+
+.fab {
+  font-family: FontAwesome;
+  font-weight: 400;
+}
+.fad {
+  font-family: FontAwesome;
+  font-weight: 900;
+}
+.fal {
+  font-family: FontAwesome;
+  font-weight: 300;
+}
+.far {
+  font-family: FontAwesome;
+  font-weight: 400;
+}
+.fas {
+  font-family: FontAwesome;
+  font-weight: 900;
+}
+
+/* FONT FAMILY */
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Black.ttf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+  font-weight: 600;
+}
